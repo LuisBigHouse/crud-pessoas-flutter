@@ -6,7 +6,7 @@ Como Fazer um Crud com Flutter BloC+API Rest (Medium) - <a href="https://medium.
 
 Cadastro COMPLETO em Flutter! (Youtube) - <a href="https://www.youtube.com/watch?v=ViahqKZzZ7Y" target="_blank">link</a>
 
-Flutter Tutorial: Consume CRUD REST API Android and iOS Apps (DJMware) - <a href="https://www.djamware.com/post/5f308ef7185c336b811b362a/flutter-tutorial-consume-crud-rest-api-android-and-ios-apps#list-data" target="_blank">link</a>
+Flutter Tutorial: Consume CRUD REST API Android and iOS Apps (DJAMware) - <a href="https://www.djamware.com/post/5f308ef7185c336b811b362a/flutter-tutorial-consume-crud-rest-api-android-and-ios-apps#list-data" target="_blank">link</a>
 
 Fetch data from the internet (flutter.dev) - <a href="https://flutter.dev/docs/cookbook/networking/fetch-data" target="_blank">link</a>
 
