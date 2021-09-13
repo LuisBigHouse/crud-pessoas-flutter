@@ -22,7 +22,7 @@ class MyApp extends StatelessWidget {
         ),
         home: PessoasList(),
         routes: {
-          AppRoutes.PESSOA_FROM: (_) => PessoaForm(),
+          AppRoutes.PESSOA_FORM: (_) => PessoaForm(),
         },
       ),
     );
