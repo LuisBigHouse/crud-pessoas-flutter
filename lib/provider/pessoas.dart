@@ -5,11 +5,11 @@ import 'package:flutter/cupertino.dart';
 
 import 'package:http/http.dart' as http;
 
-const URL = "https://restmicroservice.herokuapp.com";
+const URL = "Sua URL aqui";
 const Map<String, String> HEADERS = {
   'Content-Type': 'application/json; charset=UTF-8'
 };
-const CONTROLLER = "pessoa";
+const CONTROLLER = "Controlador aqui";
 
 class Pessoas with ChangeNotifier {
   Future<List<Pessoa>> getPessoas() async {

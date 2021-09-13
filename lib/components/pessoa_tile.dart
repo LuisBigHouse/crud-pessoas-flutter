@@ -12,7 +12,7 @@ class PessoaTile extends StatelessWidget {
   Widget build(BuildContext context) {
     return ListTile(
       title: Text(pessoa.nome),
-      subtitle: Text("Idade " + pessoa.idade.toString()),
+      subtitle: Text("Idade: " + pessoa.idade.toString()),
       trailing: Container(
         width: 100,
         child: Row(
@@ -110,6 +110,9 @@ _modalUpdate({required Pessoa pessoa, required BuildContext context}) {
                       nome: _formData['nome'],
                       idade: int.parse(_formData['idade'])),
                 );
+                ScaffoldMessenger.of(context).showSnackBar(SnackBar(
+                    content:
+                        Text("${_formData['nome']} alterado com sucesso!")));
                 Navigator.pop(context);
               }
             },
@@ -140,6 +143,8 @@ _modalDelete({required Pessoa pessoa, required BuildContext context}) {
             child: const Text('Sim'),
             onPressed: () {
               Provider.of<Pessoas>(context, listen: false).deletePessoa(pessoa);
+              ScaffoldMessenger.of(context).showSnackBar(SnackBar(
+                  content: Text("${pessoa.nome} excluido com sucesso!")));
               Navigator.of(context).pop();
             },
           ),

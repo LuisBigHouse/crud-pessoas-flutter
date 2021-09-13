@@ -1,5 +1,3 @@
-import 'dart:convert';
-
 import 'package:crud_pessoas/components/pessoa_tile.dart';
 import 'package:crud_pessoas/model/pessoa.dart';
 import 'package:crud_pessoas/provider/pessoas.dart';

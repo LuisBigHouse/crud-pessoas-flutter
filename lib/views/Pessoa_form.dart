@@ -68,6 +68,9 @@ class PessoaForm extends StatelessWidget {
                             nome: _formData['nome'],
                             idade: int.parse(_formData['idade'])),
                       );
+                      ScaffoldMessenger.of(context).showSnackBar(SnackBar(
+                          content: Text(
+                              "${_formData['nome']} criado com sucesso!")));
                       Navigator.of(context).pop();
                     }
                   },
