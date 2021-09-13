@@ -1,5 +1,14 @@
 # crud-pessoas-flutter
- Exemplo crud de pessoas usando flutter.
+ Um simples exemplo crud de pessoas usando flutter e comunicando com uma api hospedada na rede.
+Mudar URL e CONTROLLER em lib/provider/pessoas.dart
+Modelo de pessoa utilizado:
+[
+  {
+    "id": 0,
+    "idade": 0,
+    "nome": "string"
+  }
+]
  
 ## Referências
 Como Fazer um Crud com Flutter BloC+API Rest (Medium) - <a href="https://medium.com/@thekingoftech/como-fazer-um-crud-com-flutter-bloc-api-rest-483ecf9c276" target="_blank">link</a>
