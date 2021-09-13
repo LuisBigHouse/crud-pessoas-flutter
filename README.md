@@ -1,6 +1,8 @@
 # crud-pessoas-flutter
  Um simples exemplo crud de pessoas usando flutter e comunicando com uma api hospedada na rede.
+ 
 Mudar URL e CONTROLLER em lib/provider/pessoas.dart
+
 Modelo de pessoa utilizado:
 [
   {
